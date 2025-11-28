@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: orange;
+    color: white;
+}
+
+.top-bar {
+    padding: 5px 10px;
+    font-size: 14px;
+    text-align: right;
+    background-color: #ff9933;
+}
+
+.logo-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.parents-btn {
+    background-color: purple;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    padding: 20px;
+    background-color: #fff3cc;
+}
+
+.hero-left img {
+    width: 300px;
+    height: auto;
+}
+
+.hero-right {
+    margin-left: 20px;
+}
+
+.hero-menu li {
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.purple { background-color: purple; }
+.orange { background-color: orange; }
+.blue { background-color: blue; }
+.green { background-color: green; }
+.red { background-color: red; }
+
+/* Content */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+.welcome, .popular, .video-section, .search-login {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    flex: 1 1 300px;
+}
+
+.search-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.search input {
+    padding: 5px;
+    width: 150px;
+}
+
+.search button, .login button {
+    padding: 5px 10px;
+    background-color: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+}
